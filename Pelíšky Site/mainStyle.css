@@ -1,10 +1,12 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #dfdbcf;
 }
 
 h1 {
-    color: burlywood;
+    color: #cd5127;
+    text-shadow: #e8ae5c 5px 5px;
     font-size: 10vw;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Mina", sans-serif;
+    font-weight: 700;
 }
