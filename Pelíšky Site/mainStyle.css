@@ -26,9 +26,13 @@ body {
 }
 
 #hlavniLogo {
-    width: 50%;
-    border-bottom: solid #cd5127 0.2vw;
-    margin-bottom: 2vw;
+    width: 40%;
+    margin-bottom: 1vw;
+    margin-top: -10vw;
+    transition: transform 0.5s;
+}
+#hlavniLogo:hover {
+    transform: scale(1.05);
 }
 
 .trailer {
@@ -37,10 +41,43 @@ body {
     border: solid #e8ae5c 0.5vw;
     border-radius: 1vw;
     padding: 2vw;
+    transition: transform 0.5s;
+}
+.trailer:hover {
+    transform: scale(1.05);
 }
 
 .trailer h2 {
     color: white;
     font-weight: 900;
     font-size: 2.5vw;
+}
+
+
+
+nav {
+    background-color: #e8ae5c;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+nav img {
+    height: 2.25em;
+    padding: 0.5vw;
+}
+nav a {
+    padding: 1vw;
+    color: #cd5127;
+    font-family: Mina, Arial;
+    font-weight: 900;
+    font-size: 1.5vw;
+    transition: background-color 0.5s;
+}
+nav a:has(img) {
+    padding: 0;
+    margin: 0 1vw;
+}
+
+nav a:hover {
+    background-color: #f8be6c;
 }
