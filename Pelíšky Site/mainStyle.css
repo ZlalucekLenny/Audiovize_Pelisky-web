@@ -26,6 +26,21 @@ body {
     text-shadow: #e8ae5c 0.15vw 0.15vw;
 }
 
+.hlavniPage h1 {
+    font-weight: 900;
+    text-align: center;
+    font-family: Mina, Arial;
+    font-size: 8vw;
+    color: #cd5127;
+    text-shadow: #e8ae5c 0.15vw 0.15vw;
+    transition: transform 0.5s; 
+}
+.hlavniPage h1:hover {
+    transform: scale(1.1);
+}
+
+
+
 #hlavniLogo {
     width: 40%;
     margin-bottom: 1vw;
@@ -74,6 +89,7 @@ nav a {
     font-family: Mina, Arial;
     font-weight: 900;
     font-size: 1.5vw;
+    text-decoration: none;
     transition: background-color 0.5s, font-size 0.5s;
 }
 nav a:has(img) {    
