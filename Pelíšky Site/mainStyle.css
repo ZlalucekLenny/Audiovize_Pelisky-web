@@ -38,7 +38,14 @@ body {
 .hlavniPage h1:hover {
     transform: scale(1.1);
 }
-
+p {
+    text-align: center;
+    font-family: Mina, Arial;
+    font-weight: 100;
+    font-size: 1vw;
+    margin-top: 4vw;
+    margin-bottom: -1.5vw;
+}
 
 
 #hlavniLogo {
