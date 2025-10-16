@@ -32,7 +32,7 @@ body {
     font-family: Mina, Arial;
     font-size: 8vw;
     color: #cd5127;
-    text-shadow: #e8ae5c 0.15vw 0.15vw;
+    text-shadow: #e8ae5c 0.25vw 0.25vw;
     transition: transform 0.5s; 
 }
 .hlavniPage h1:hover {
