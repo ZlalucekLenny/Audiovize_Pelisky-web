@@ -104,3 +104,35 @@ nav a:hover {
 nav a.active {
     background-color: #e49746;
 }
+
+.postava {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+    transition: transform 0.5s
+}
+.postava:hover {
+    transform: scale(1.05);
+}
+.postava:hover img{
+    box-shadow: 0 0 1vw black;
+}
+
+.postava img {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: solid #cd5127 0.5vw;
+    transition: box-shadow 0.5s;
+}
+
+.postava h2 {
+    font-weight: 900;
+    align-self: center;
+}
+
+.postava:nth-child(even) {
+    flex-direction: row-reverse;
+}
