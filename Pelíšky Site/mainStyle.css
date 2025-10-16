@@ -43,8 +43,8 @@ body {
 
 #hlavniLogo {
     width: 40%;
-    margin-bottom: 1vw;
-    margin-top: -10vw;
+    margin-bottom: 0.5vw;
+    margin-top: -8vw;
     transition: transform 0.5s;
 }
 #hlavniLogo:hover {
